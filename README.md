@@ -1,3 +1,27 @@
+
+Structure of the project:
+    - src
+        - components
+            - BasicTable -TODO - refactor for real case scenarion
+            - CustomerCard
+            - Placeholder
+            - SideBarAccordion - TODO - make it dynamic component
+        - containers
+            - AdminPanel
+            - Home - TODO
+            - Login - TODO
+            - Register - TODO
+            - Articles - TODO
+                - Comments - TODO - ???
+        // Redux architecture
+        - features - for redux it's a new approach mixed actionsand reducers in one with createSlice({}) function
+        - app
+            - store.js
+        // Redux architecture
+        - utils
+        - images - TODO - research
+        - styles - TODO - research
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts

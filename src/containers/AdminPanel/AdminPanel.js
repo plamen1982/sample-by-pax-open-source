@@ -18,6 +18,7 @@ import SideBarAccordion from '../../components/SideBarAccordion/SideBarAccordion
 import BasicTable from '../../components/BasicTable/BasicTable';
 import CustomerCard from '../../components/CustomerCard/CustomerCard';
 import Placeholder from '../../components/Placeholder/Placeholder';
+import Counter from '../../features/counter/Counter';
 
 const AdminPanel = () => {
     return (
@@ -85,6 +86,9 @@ const AdminPanel = () => {
      </Grid>
     {/* Statistics table at the bottom of the page */}
     {/* TODO Fix the problem with xs={12} */}
+    <Grid xs={12} item>
+      <Counter></Counter>
+    </Grid>
      <Grid xs={12} item container>
        <BasicTable></BasicTable>
      </Grid>

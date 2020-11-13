@@ -20,7 +20,7 @@ const App = () => {
       <Route exact path="/" render={() => <Redirect to="/admin" />} />
       {/* <Route component={Home} /> */}
     </Switch>
-    {/* <BottomNavigationBar /> */}
+    {/* <BottomNavigationBar /> TODO create and move into a component */}
   </Router>
   );
 }
