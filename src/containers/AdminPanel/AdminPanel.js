@@ -6,7 +6,6 @@ import Toolbar from '@material-ui/core/Toolbar';
 import Typography from '@material-ui/core/Typography';
 import Person from '@material-ui/icons/Person';
 import AddShoppingCartIcon from '@material-ui/icons/AddShoppingCart';
-
 import AccountBalanceWalletIcon from '@material-ui/icons/AccountBalanceWallet';
 import LocalMallIcon from '@material-ui/icons/LocalMall';
 import Button from '@material-ui/core/Button';
