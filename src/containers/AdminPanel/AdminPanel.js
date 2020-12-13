@@ -24,8 +24,9 @@ const AdminPanel = () => {
     return (
     // Layout for the admin panel
    <Grid container alignItems="flex-start">
+     {/* TODO Remove when the story for refactoring come */}
    {/* Appbar or the Header for the admin page */}
-    <AppBar position="static">
+    {/* <AppBar position="static">
       <Toolbar>
         <IconButton edge="start" color="inherit" aria-label="menu">
           <MenuIcon />
@@ -35,7 +36,7 @@ const AdminPanel = () => {
         </Typography>
         <Button color="inherit">Login</Button>
       </Toolbar>
-    </AppBar>
+    </AppBar> */}
    {/* Sidebar menu for the admin panel */}
    <Grid item xs={2} style={{backgroundColor: '#2a3f4c', height:'1000px', marginRight:'16px'}}>
       <SideBarAccordion />

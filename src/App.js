@@ -6,7 +6,7 @@ import {
   Redirect
 } from 'react-router-dom';
 
-import AppNavigationBar from './components/AppNavigationBar/AppNavigationBar';
+import TopNavigationBar from './components/TopNavigationBar/TopNavigationBar';
 import BottomNavigationBar from './components/BottomNavigationBar/BottomNavigationBar';
 
 import AdminPanel from './containers/AdminPanel/AdminPanel';
@@ -19,7 +19,7 @@ const App = () => {
 
   return (
     <Router>
-      <AppNavigationBar /> TODO move NavigationBar into component
+      <TopNavigationBar />
       <Switch>
         <Route exact path="/admin" component={AdminPanel} />
         <Route exact path="/login" component={Login} />
@@ -27,7 +27,7 @@ const App = () => {
         <Route exact path="/home" component={Home} />
         <Route exact path="/" render={() => <Redirect to="/home" />} />
       </Switch>
-      <BottomNavigationBar /> TODO create and move into a component
+      <BottomNavigationBar />
     </Router>
   );
 }

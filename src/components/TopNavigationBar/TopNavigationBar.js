@@ -22,7 +22,7 @@ const useStyles = makeStyles(theme => ({
   }
 }));
 
-export default function ButtonAppBar() {
+const TopNavigationBar = () => {
   const classes = useStyles();
 
   return (
@@ -85,3 +85,5 @@ export default function ButtonAppBar() {
     </div>
   );
 }
+
+export default TopNavigationBar;
